@@ -1,0 +1,82 @@
+body {
+  background-color: #f8f9fa; /* Bootstrap background color */
+}
+
+.navbar {
+  background-color: peachpuff; /* Bootstrap primary color */
+  border-bottom: 1px solid peachpuff; /* Bootstrap primary color - darker shade */
+}
+
+.navbar-brand img {
+  max-height: 80px; /* Adjust the height as needed */
+  margin-left: 10px;
+  padding-right: 1200px;
+  margin-left: 100px;
+}
+
+.navbar-brand,
+.navbar-nav a {
+  color: black;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+  background-color: #ff9966;
+}
+
+.navbar-nav {
+  margin-right: auto;
+}
+
+/* Additional styling for search bar */
+.input-group {
+  margin-top: 10px; /* Add padding between search bar and button */
+}
+
+.input-group-append button {
+  background-color: peachpuff; /* Change button color to peach */
+  border-color: peachpuff; /* Change button border color to peach */
+  color: #fff; /* Button text color */
+}
+
+.input-group-append button:hover {
+  background-color: #ff9966; /* Change button color on hover */
+  border-color: #ff9966; /* Change button border color on hover */
+}
+
+/* Custom class for button color */
+.btn-peach {
+  background-color: peachpuff;
+  border-color: peachpuff;
+  color: black;
+}
+
+.btn-peach:hover {
+  background-color: #ff9966;
+  border-color: #ff9966;
+  color: #fff;
+}
+.card {
+  max-width: 250px;
+}
+
+.card-img-top {
+  max-height: 2500px; /* Adjust the maximum height of the card image */
+  object-fit: cover; /* Scale the image while maintaining its aspect ratio */
+}
+
+.card-footer {
+  text-align: center; /* Center the button within the card */
+}
+#inventoryTable {
+  table-layout: fixed;
+  width: 100%;
+}
